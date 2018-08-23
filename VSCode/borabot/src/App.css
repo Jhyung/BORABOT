@@ -1,0 +1,29 @@
+.main {
+	/* div가 화면에 꽉차게 */
+	width: 100vw;
+	height: 100vh;
+
+	/* 배경이미지 */
+	background-image: url('./img/sign/sign_bg_01.png');
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    overflow: hidden;
+}
+
+.login { 
+	/* div가 화면에 꽉차게 */
+	width: 100vw;
+	height: 100vh;
+	
+	/* 배경이미지 */
+	background-image: url('./img/login/login_bg.png');
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    overflow: hidden;
+}
+
+.header-location{
+  position: absolute;
+  left: 320px;
+  top:20px;
+}

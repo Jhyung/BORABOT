@@ -1,0 +1,353 @@
+.profile {
+    
+}
+
+
+
+.bd_profile {
+    background-color: #ffffff;
+    text-align: center;
+    position: absolute;
+    width: 450px;
+    height: 603px;
+
+    top:25%;
+    left:43%;
+    margin:-50px 0 0 -50px;
+
+    
+}
+
+/*개인정보*/
+.profile_1 { 
+    position: relative;
+    float: center;
+}
+
+.personal_contents {
+
+}
+
+/*개인정보 하위*/
+
+.personal_name {
+    padding-top: 58px;
+}
+.personal_name, .personal_number {
+    padding-top: 17px;
+}
+
+/*개인정보 제목*/
+.personal {
+    text-align: center;
+    font-size: 32px;
+    text-emphasis: bold;
+    padding-top: 40px;
+}
+
+/*개인정보 이름*/
+.personal_name {
+    font-size: 20px;
+}
+
+#profile_name {
+    border-bottom-color: purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    font-size: 100%;
+    
+    font-display: "이름";
+    font-style: inherit;
+
+    height: 50px;
+    width: 230px;
+}
+
+/*개인정보 휴대폰 번호*/
+.personal_number {
+    font-size: 20px;
+
+}
+
+#phone_number {
+    border-bottom-color: purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    font-size: 100%;
+
+    height: 50px;
+    width: 230px;
+}
+
+/*수정버튼1*/
+#modPersonal {
+    border: none;
+    background-color: #ffffff;
+    margin-top: 113px;
+}
+
+
+
+/* 비밀번호 변경 */
+.profile_2 {
+    position: relative;
+    float: center;
+
+}
+
+.pw_contents {
+
+}
+
+.pw_1 {
+    
+}
+
+#oldPassword {
+    border-bottom-color: purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    font-size: 100%;
+    height: 50px;
+    width: 230px;
+}   
+
+.pw_2 {
+
+}
+
+#newPassword {
+    border-bottom-color: purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    font-size: 100%;
+    margin-top: 10px;
+    height: 50px;
+    width: 230px;
+}
+
+.pw_3 {
+
+}
+
+#newPasswordConfirm {
+    border-bottom-color: purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    font-size: 100%;
+    margin-top: 10px;
+    height: 50px;
+    width: 230px;
+}
+
+#modPassword {
+    border: none;
+    background-color: #ffffff;
+    margin-top: 67px;
+}
+
+/*거래소 정보*/
+.profile_3 {
+    position: relative;
+    float: center;
+}
+/*거래소 정보 하위*/
+.exchange, .exchange_api, .exchange_secret, {
+    padding-top: 30px;
+    
+}
+
+
+/*거래소 정보 거래소목록*/
+.exchange {
+
+
+}
+
+#exchange {
+    border-bottom-color: #9646a0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    font-size: 100%;
+
+    height: 50px;
+    width: 230px;
+
+    appearance: none;
+
+    background: url('../img/common/select_01.png') no-repeat 95% 50%;
+}
+
+.exchange_contents {
+
+}
+
+/*거래소정보 API*/
+.exchange {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+#api_key {
+    border-bottom-color: purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    font-size: 100%;
+    margin-top: 10px;
+    height: 50px;
+    width: 230px;
+}
+
+
+#secret_key {
+    border-bottom-color: purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    font-size: 100%;
+    margin-top: 10px;
+    height: 50px;
+    width: 230px;
+}
+
+
+/*수정버튼3*/
+#modExchange {
+    border: none;
+    background-color: #ffffff;
+    margin-top: 72px;
+}
+
+.pw_error {
+    color: red;
+    margin-top: 6px;
+}
+
+
+/*완료버튼*/
+#completeButton {
+    border: none;
+    background-color: #ffffff;
+    
+    position: absolute;
+    
+    align-content: center;
+    margin-top: 37%;
+    margin-left: 40%;
+}
+
+#profile_tabs_1, #profile_tabs_2, #profile_tabs_3 {
+    padding: 0 20px;
+    max-height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile_tabs {
+    
+}
+
+.profile_tabs_wrap {
+    
+}
+
+.react-tabs__tab-list {
+    position: relative;
+    width: 450px;
+    padding: 0;
+    margin: 0;
+
+    height: 38px;
+    background: url('../img/common/tab_bg_02.png');
+}
+
+.react-tabs__tab {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer; 
+    width: 124px;
+}
+
+.react-tabs__tab--selected {
+    background: #fff;
+    color: black;
+    border-radius: 5px 5px 0 0;
+    background: url('../img/common/tab_bg_01.png') no-repeat 100% 20%;
+    background-size: 152px 50px;
+    height: auto;
+
+}
+
+.react-tabs__tab--disabled {
+    cursor: default;
+    background: url('../img/common/tab_bg_02.png') no-repeat 100% 20%;
+  }
+  
+  .react-tabs__tab:focus {
+    box-shadow: 0 0 5px hsl(208, 99%, 50%);
+    border-color: hsl(208, 99%, 50%);
+    outline: none;
+  }
+  
+  .react-tabs__tab:focus:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    left: -4px;
+    right: -4px;
+    bottom: -5px;
+    background: #fff;
+  }
+
+  .react-tabs__tab-panel {
+    display: none;
+  }
+  
+  .react-tabs__tab-panel--selected {
+    display: block;
+  }
+  
+  
+
+.profile_tab_1 {
+    position: relative;
+    font-size: 18px;
+    width: 33%;
+    color: #6946a0;
+    
+}
+
+.profile_tab_2 {
+    position: relative;
+    font-size: 18px;
+    width: 33%;
+    color: #6946a0;
+    
+}
+
+.profile_tab_3 {
+    position: relative;
+    font-size: 18px;
+    width: 32%;
+    color: #6946a0;
+}
+

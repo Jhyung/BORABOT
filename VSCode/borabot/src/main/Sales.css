@@ -1,0 +1,100 @@
+.sales_total {
+  height: 500px;
+}
+
+.sales-start-btn{
+  width: 100px;
+  height: 50px;
+  font-size: 40pt;
+  position: absolute;
+  left: 25px;
+  top : 565px;
+
+}
+
+.Sales-color{
+margin-top: auto;
+margin-bottom: 10px;
+font-size: 20pt;
+color: blue;
+}
+
+.select-botName{
+margin-left: 25px;
+width : 182px;
+border : 0px;
+border-bottom : 1px solid #9646a0;
+padding-left : 3px;
+}
+
+.input-buySetting{
+margin-top: 20px;
+margin-left: 25px;
+width : 182px;
+border : 0px;
+border-bottom : 1px solid #9646a0;
+
+}
+
+.input-sellSetting{
+margin-top: 20px;
+margin-left: 25px;
+width : 182px;
+border : 0px;
+border-bottom : 1px solid #9646a0;
+
+}
+
+.select_hour {
+width: 80px;
+height : 30px;
+padding: 6px;
+background: url("../img/common/select_01.png") no-repeat 95% 50%;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+border-top : 0px;
+border-left : 0px;
+border-right : 0px;
+border-bottom: 1px solid #9646a0;
+border-radius: 0px;
+font-size: 14px;
+position: absolute;
+left: 125px;
+margin-top : 12px;
+
+}
+
+.sales-select {
+  width: 182px;
+  height : 27px;
+
+  padding: 5px;
+  background: url("../img/common/select_01.png") no-repeat 95% 50%;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-top : 0px;
+  border-left : 0px;
+  border-right : 0px;
+  border-bottom: 1px solid #9646a0;
+  border-radius: 0px;
+  font-size: 14px;
+
+  margin-left: 25px;
+  margin-top : 15px;
+}
+
+
+.select-custom{
+width: 182px;
+padding: 5px;
+}
+
+option{
+font-size:15px;
+background-color:transparent;
+font-family: 'nanum gothic';
+}

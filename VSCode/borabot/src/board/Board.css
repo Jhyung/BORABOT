@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.board_total {
+    width: 1080px;
+    top:25%;
+    left:43%;
+    height: 1080px;
+}
+
+.board {
+    margin-left: 320px;
+    background-color: #ffffff;
+    text-align: center;
+    position: absolute;
+
+    width: 1023px;
+    height: 851px;
+    padding-left: 130px;
+    padding-right: 130px;
+    
+
+    top: 105px;
+    left: 0px; 
+
+    overflow: scroll;
+}
+
+.board_title {
+    /* padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 320px; */
+    padding-top: 25px;
+    position: relative;
+    border: none;
+    font-style: bold #111111;
+    font-size: 24px;
+    
+}
+
+.post_table{
+    
+}
+
+/* 글쓰기 버튼 */
+#boardButton {
+    /* padding-top: 30px; */
+    position: absolute;
+    border: none;
+    top : 724px;
+    left: 1112px;
+    background-color: #ffffff;
+    /* padding-left: 690px;
+    padding-bottom: 80px; */
+}
+
+#listButton {
+    position: absolute;
+    left: 769px;
+    float: right;
+    border: none;
+    background-color: #ffffff;
+
+    top: 62.8%;
+}
+
+.table-tableContainer{
+    width: 1200px;
+    /* height: 536px; */
+    position: absolute;
+    left: 20px;
+    top : 100px;
+    border-spacing: 0px;
+    font-family: 'nanum gothic';
+    padding-left: 38px;
+}
+
+.table-theadContainer{
+    width: 997px;
+}
+
+.table-headTr{
+    
+    background-color: #f5f5f5;
+    border-top: 2px solid #9646a0;
+    font-size : '24px';
+    height: 56px;
+}
+
+.table-tbodyContainer{
+    text-align: center;
+}
+
+.table-td{
+    height: 48px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.table-tr:hover{
+    background-color: #f5f5f5;
+} 
+
+.table-chooseBoxContainer{
+
+    position: absolute;
+    width: 398px;
+    height: 30px;
+    left: 50%;
+    margin-left: -199px;
+    top : 726px;
+    align-content: center;
+    align-items: center;
+
+}
+
+.table-chooseLeft{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+.table-chooseRight{
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+.table-chooseNumber{
+    width: 30px;
+    height: 30px;
+
+    text-align: center;
+
+    float : left;
+    margin-right: 2px;
+
+    font-size: 15px;
+    font-family: sans-serif;
+    
+    color: black;
+}
+
+.table-chooseNumberSelected{
+
+    width: 30px;
+    height: 30px;
+
+    text-align: center;
+
+    float : left;
+    margin-right: 2px;
+
+    font-size: 15px;
+    font-family: sans-serif;
+    
+    color: white;
+}

@@ -1,0 +1,33 @@
+.App {
+  align-content: right;
+}
+
+.Logo {
+  color: white;
+  margin: 3.5rem;
+  float: center;
+
+}
+
+.Comments_1 {
+  color: white;
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+  float: left;
+}
+
+.Comments_2 {
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  float: left;
+}
+
+.loginButton {
+  padding-top: 5rem;
+}
+
+.registerLink {
+  padding-top: 6rem;
+  margin-right: 5rem;
+}

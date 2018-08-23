@@ -1,0 +1,269 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.sign-background{
+    
+    width : 100% !important;
+    height : 100vh !important ;
+    
+}
+
+.sign-windowBackground{
+    
+    width : 505px;
+    height: 688px;
+    position: relative;
+    left : 50%;
+    margin-left : -275px;
+    top : 120px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+.sign-header{
+    position: absolute;
+
+    width : 150px;
+    height:60px;
+    top : 45px;
+
+    left: 50%;
+    margin-left: -75px;
+
+    text-align: center;
+
+    font-size: 30px;
+    color: white;
+    font-family : 'nanum gothic', sans-serif;
+}
+
+.sign-text{
+    text-align: center;
+}
+
+
+.sign-email-box{
+    width : 380px;
+    height:40px;
+    
+    left : 60px;
+    top : 160px;
+
+    position: absolute;
+
+
+    background-color: transparent;
+    border-bottom:2px solid;
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    font-family : 'nanum gothic', sans-serif;
+    
+}
+
+.sign-email-warning-text{
+
+    color: white;
+    font-size: 13.5px;
+    position: absolute;
+    top: 207.5px;
+    left: 110px;
+}
+
+
+.sign-auth-btn{
+    
+    height: 22px;
+    float: right;
+    width: 60px;
+    margin-top: 10px;
+    font-family : 'nanum gothic', sans-serif;
+}
+
+.sign-authkey-box{
+    width : 380px;
+    height:40px;
+    
+    left : 60px;
+    top : 235px;
+
+    position: absolute;
+    background-color: transparent;
+    border-bottom:2px solid;
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    font-family : 'nanum gothic', sans-serif;
+}
+
+.sign-password-box{
+    width : 380px;
+    height:40px;
+    
+    left : 60px;
+    top : 310px;
+
+    position: absolute;
+
+
+    background-color: transparent;
+    border-bottom:2px solid;
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    font-family : 'nanum gothic', sans-serif;
+}
+
+.sign-password-text{
+
+    position: absolute;
+    font-size: 13.5px;
+    color: white;
+    top : 357.5px;
+    left : 110px;
+    font-family : 'nanum gothic', sans-serif;
+}
+
+.sign-password2-box{
+    width : 380px;
+    height:40px;
+    
+    left : 60px;
+    top : 385px;
+
+    position: absolute;
+
+
+    background-color: transparent;
+    border-bottom:2px solid;
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+
+    font-family : 'nanum gothic', sans-serif;
+}
+
+.sign-password-warning-text{
+
+    color: white;
+    font-size: 13.5px;
+    position: absolute;
+    top: 430.5px;
+    left: 110px;
+}
+
+.sign-email-img{
+    position: absolute;
+    width: 24px;
+    height: 30px;
+    left: 6px;
+}
+
+.sign-inputBox{
+    
+    width: 270px;
+
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    background-color: transparent;
+    
+    position: absolute;
+    left: 50px;
+    bottom: 5px;
+    font-size: 20px;
+    
+    color: white;
+    font-family:  'Nanum Gothic', sans-serif;
+}
+
+.sign-password-img{
+    position: absolute;
+    width: 26px;
+    height: 31px;
+    left: 6px;
+}
+
+.sign-password2-img{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 6px;
+    top : 5px;
+}
+
+
+
+.sign-yakkwan-text{
+    position: absolute;
+    top : 500px;
+    left : 60px;
+    color: white;  
+    width: 320px;
+    height: 50px;
+    font-size: 15px;
+    font-family:  'Nanum Gothic', sans-serif;
+
+}
+
+.sign-text-container{
+    border: 2px;
+    border-color: white solid;
+    width: 320px;
+    height: 50px;
+}
+.sign-19-text{
+    position: absolute;
+    top : 540px;
+    left : 60px;
+    color: white;
+    border: 2px;
+    border-color: white solid;
+    width: 320px;
+    height: 50px;
+    font-size: 15px;
+    font-family:  'Nanum Gothic', sans-serif;
+}
+
+.sign-checkbox{
+    position: absolute;
+    top: 5px;
+}
+
+.sign-sign-btn{
+    position: absolute;
+    left: 60px;
+    top : 600px;
+    width : 380px;
+}
+
+.sign-logo{
+    position: absolute;
+    top: 30px;
+    left: 270px;
+}
+
+.sign-email-key-img{
+    width: 24px;
+    height: 24px;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+input::-ms-input-placeholder { color: #BDBDBD; }
+input::-webkit-input-placeholder { color: #BDBDBD; } 
+
+input::-moz-placeholder { color: #BDBDBD; }
+
+/* input::-ms-input-placeholder { color: white; }
+input::-webkit-input-placeholder { color: white; } 
+
+input::-moz-placeholder { color: white; } */
+input:focus {
+    outline: none;
+  }

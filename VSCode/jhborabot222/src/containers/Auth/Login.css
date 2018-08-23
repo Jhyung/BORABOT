@@ -1,0 +1,26 @@
+.App {
+  align-content: right;
+}
+
+.Logo {
+  color: white;
+  margin: 3.5rem;
+  float: center;
+
+}
+
+.Comments_1 {
+  color: white;
+  margin-top: 5rem;
+  margin-left: 3.5rem;
+}
+
+.Comments_2 {
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.loginButton {
+  margin-top: 2rem;
+}

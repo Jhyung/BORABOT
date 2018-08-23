@@ -1,0 +1,60 @@
+.findInfo {
+    position: relative;
+
+    width: 513px;
+    height: 476px;
+    top: 212px;
+    left: 40%;
+
+    background-color: #ffffff;
+}
+
+.findInfo_logo {
+    position: relative;
+    
+    left: 48%;
+    top: 180px;
+
+    
+}
+
+.findInfo_title {
+    position: relative;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+#inputFindInfo {
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    width: 248px;
+    height: 30px;
+    top: 60px;
+    left: 100px;
+
+}
+
+#tempPwd {
+    position: relative;
+    border: none;
+    background-color: #ffffff;
+    top: 70px;
+    left: 100px;
+    
+}
+
+.tempPwdText {
+    position: relative;
+    top: -10px;
+    left: 870px;
+}
+
+#backToHome {
+    position: relative;
+    border: none;
+    background-color: #ffffff;
+
+    top: 40px;
+    left: 865px;
+}

@@ -1,0 +1,284 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.bt-settingContainer{
+    position: absolute;
+    left: 320px;
+    top: 106px;
+    background-color: white;
+    width: 223px;
+    height: 850px;
+    font-family: 'nanum gothic';
+}
+
+.bt-btSettingText{
+    top: 40px;
+    margin-left: 51.5px;
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width : 120px;
+
+    font-size: 20px;
+    font-family: 'nanum gothic';
+    font-weight: bold;
+}
+
+.bt-select {
+  width: 182px;
+  height : 27px;
+
+  padding: 5px;
+  background: url("../img/common/select_01.png") no-repeat 95% 50%;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
+  border-top : 0px;
+  border-left : 0px;
+  border-right : 0px;
+  border-bottom: 1px solid #9646a0;
+  border-radius: 0px;
+  font-size: 14px;
+
+  margin-left: 20px;
+  margin-top : 15px;
+}
+
+.bt-input-buySetting{
+  margin-top: 20px;
+  margin-left: 20px;
+  width : 162px;
+  border : 0px;
+  border-bottom : 1px solid #9646a0;
+
+}
+
+.bt-input-sellSetting{
+  margin-top: 20px;
+  margin-left: 20px;
+  width : 162px;
+  border : 0px;
+  border-bottom : 1px solid #9646a0;
+
+}
+
+.bt-startPrice{
+  margin-left: 20px;
+  width : 182px;
+  height: 27px;
+  border : 0px;
+  border-bottom : 1px solid #9646a0;
+
+}
+
+.bt-start-btn{
+
+  
+  width: 100px;
+  height: 100px;
+  font-size: 40pt;
+  position: absolute;
+  left: 20px;
+  top : 760px;
+
+}
+
+.bt-select-hour{
+  width: 80px;
+  height : 30px;
+  padding: 6px;
+  background: url("../img/common/select_01.png") no-repeat 95% 50%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-top : 0px;
+  border-left : 0px;
+  border-right : 0px;
+  border-bottom: 1px solid #9646a0;
+  border-radius: 0px;
+  font-size: 14px;
+  position: absolute;
+  left: 120px;
+  margin-top : 12px;
+  
+}
+
+
+.bt-resultWindow{
+  width: 1040px;
+  height: 80px;
+  position: absolute;
+  top: 106px;
+  left : 563px;
+  background-color: white;
+}
+
+
+.bt-resultLogContainer{
+    width : 1040px;
+    height : 750px;
+    position: absolute;
+    left: 563px;
+    top : 206px;
+    background-color: white;
+}
+
+.bt-select {
+  width: 182px;
+  height: 27px;
+  border: none;
+  border-bottom: 1px solid #9646a0;
+  font-size: 14px;
+  background: url("../img/common/select_01.png") no-repeat 95% 50%;
+  padding: 5px;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
+  margin-left: 20px;
+  margin-top : 40px;
+  
+}
+
+
+.bt-input {
+  margin-top: 10px;
+}
+
+.buyingSetting, .sellingSetting {
+  width: 182px;
+  height: 27px;
+  border: none;
+  border-bottom: 1px solid #9646a0;
+  font-size: 14px;
+  background: url("../img/common/select_01.png") no-repeat 95% 50%;
+  padding: 5px;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
+  margin-left: 20px;
+  margin-top : 20px;
+  
+}
+
+#nowCash {
+  position: relative;
+  margin-top: 80px;
+}
+
+
+.bt-headTr{
+  
+  background-color: #f5f5f5;
+  border-top: 2px solid #9646a0;
+  font-size : '24px';
+  height: 56px;
+}
+
+.bt-botIndivText{
+  width: 997px;
+  height: 50px;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  font-family: 'nanum gothic',sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.bt-tableContainer{
+  width: 997px;
+  /* height: 536px; */
+  position: absolute;
+  left: 20px;
+  top : 85px;
+  border-spacing: 0px;
+  font-family: 'nanum gothic'
+}
+
+
+.bt-theadContainer{
+  width: 997px;
+}
+
+.bt-headTr{
+  
+  background-color: #f5f5f5;
+  border-top: 2px solid #9646a0;
+  font-size : '24px';
+  height: 56px;
+}
+
+.bt-tbodyContainer{
+  text-align: center;
+}
+
+.bt-td{
+  height: 48px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+
+.bt-chooseBoxContainer{
+
+  position: absolute;
+  width: 398px;
+  height: 30px;
+  left: 50%;
+  margin-left: -199px;
+  top : 700px;
+  align-content: center;
+  align-items: center;
+
+}
+
+.bt-chooseLeft{
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+
+.bt-chooseRight{
+  float: right;
+  width: 30px;
+  height: 30px;
+}
+
+.bt-chooseNumber{
+  width: 30px;
+  height: 30px;
+
+  text-align: center;
+
+  float : left;
+  margin-right: 2px;
+
+  font-size: 15px;
+  font-family: sans-serif;
+  
+  color: black;
+}
+
+
+.bt-chooseNumberSelected{
+
+  width: 30px;
+  height: 30px;
+
+  text-align: center;
+
+  float : left;
+  margin-right: 2px;
+
+  font-size: 15px;
+  font-family: sans-serif;
+  
+  color: white;
+}

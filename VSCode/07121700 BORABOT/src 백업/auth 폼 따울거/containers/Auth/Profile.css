@@ -1,0 +1,37 @@
+.profile_1 {
+  float: left;
+}
+
+.profile_2 {
+  float: right;
+}
+
+.Content {
+  float: left;
+}
+
+.Content_1 {
+  margin-top: 1rem;
+}
+
+.ExchangeList {
+  float: center;
+  outline: none;
+  border-radius: 0px;
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.profileButton1 {
+  padding-top: 3rem;
+  outline-width: medium;
+}
+
+.profileButton2 {
+  padding-right: 4rem;
+  outline-width: medium;
+}

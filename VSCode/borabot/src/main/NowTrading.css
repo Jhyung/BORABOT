@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.NowTrading-elementList{
+    margin-top: 22px;    
+    overflow: scroll;
+    margin-left: 0px;
+    height: 760px;
+}
+
+.NowTrading-element{
+    width: 238px;
+    height: 284px;
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    overflow: hidden;
+   
+    font-family: 'nanum gothic', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+
+.ntr-nowTradingHeadText{
+   
+    position: absolute;
+    width : 75px;
+    height: 32px;
+    top: 36px;
+    margin-top: -7px;
+    left: 20px;
+    font-family: 'nanum gothic';
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.ntr-nowTradingAlarm{
+    
+    position: absolute;
+    width: 32px;
+    height: 32px;
+
+    top : 36px;
+    margin-top: -10px;
+
+    left: 140px;
+    font-size: 18px;
+    font-family: 'nanum-gothic';
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ntr-nowTradingAlarmCnt{
+
+    display:table-cell;
+    
+}
+
+
+.ntr-nowTradingRefresh{
+    
+    position: absolute;
+    width: 28px;
+    height: 28px;
+
+    top : 36px;
+    margin-top: -8px; 
+
+    left: 185px;
+
+    -webkit-animation: spin 4s infinite linear;
+    -o-animation: spin 4s infinite linear;
+    -moz-animation: spin 4s infinite linear;
+    animation: spin 4s infinite linear;
+}
+
+@-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
+}
+ 
+@-moz-keyframes spin {
+   0%  {-moz-transform: rotate(0deg);}
+    100% {-moz-transform: rotate(360deg);}
+}
+@keyframes spin {
+    0%  {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+
+
+.ntr-nowTradingHead{
+ 
+    width : 222px;
+    height: 79px ;
+    background-color: white;
+  }
+
+.ntr-obj-botname{
+    position: relative;
+    top:20px;
+    left:20px;
+    height: 15px;
+    font-family: 'nanum gothic';
+    font-size: 18px;
+    font-weight: bold;
+    color : #111111;
+}
+
+.ntr-obj-coin{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.ntr-obj-text{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.ntr-obj-profit{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.ntr-obj-logBtn{
+    width : 94;
+    height: 24;
+    margin-top : 30px;
+    margin-left: 15px;
+    float: left;
+}
+
+.ntr-obj-stopBtn{
+    width : 94;
+    height: 24;
+    margin-top : 30px;
+    margin-left: 8px;
+    float:left;
+}
+
+::-webkit-scrollbar{
+    color: transparent;
+}

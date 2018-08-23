@@ -1,0 +1,247 @@
+.strategy {
+    margin-left: 320px;
+}
+
+.strategy_1 {
+    position: relative;
+    float: left;
+    width: 230px;
+    top : 106px;
+}
+
+.strategy_1_contents {
+    width: 223px;
+}
+
+.strategy_1_contents_top {
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 78px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+#serverStrategy, #strategy_name, #buyWeight, #sellWeight, #indicator, #weight, #period, #buyIndex, #sellIndex, #mul, #longD, #shortD, #mT, #n, #m, #t, #cor {
+    width: 182px;
+    height: 42px;
+    border: none;
+    border-bottom: 1px solid #9646a0;
+    font-size: 14px;
+    color: #111111;
+}
+
+#serverStrategy, #indicator {
+    background: url("../img/common/select_01.png") no-repeat 95% 50%;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.strategy_1_contents_titles_1 {
+    font-size: 18px;
+    font-style: bold #111111;
+    text-align: center;
+    height: 10px;
+}
+
+.strategy_1_contents_titles_2 {
+    font-size: 18px;
+    font-style: bold #111111;
+    text-align: center;
+    height: 10px;
+    padding-top: 40px;
+}
+
+.strategy_1_contents_titles_3 {
+    font-size: 18px;
+    font-style: bold #111111;
+    text-align: center;
+    height: 10px;
+    margin-top: 40px;
+}
+
+.strategy_1_contents_titles_4 {
+    font-size: 18px;
+    font-style: bold #111111;
+    text-align: center;
+    height: 10px;
+    margin-top: 40px;
+}
+.strategy_1_contents_bottom {
+    height: 578.81px;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.strategySaveButton {
+    height: 73px;
+    padding-top: 42px;
+    /* padding-bottom: 31px; */
+    margin:auto;
+    width: 100%;
+    background-color: #ffffff;
+    
+}
+
+#strategySaveButton {
+    top: 42px;
+    border: none;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0px;    
+}
+
+.strategy_2 {
+    width: 1030px;
+    height: 654px;
+    top: 230px;
+    /* padding-top: 20px; */
+    padding-left: 10px;
+    margin-left: 243px;
+    position: relative;
+    text-align: center;
+    background-color: #ffffff;
+    z-index: 3;
+    overflow: scroll;
+
+}
+
+.strategy_2_wrap {
+    position: fixed;
+    width: 1040px;
+    height: 200px;
+    
+    top: 106px;
+    left: 563px;
+    background-color: #ffffff;
+}
+
+.strategy_2_title {
+    text-align: center;
+    font-size: 21px;
+}
+
+.strategy_2_common {
+    font-size: 18px;
+    color: #5a75d0;
+    text-align: center;
+}
+
+.strategy_2_titles {
+    font-size: 18px;
+    color: #5a75d0;
+    padding-bottom: 6px;
+}
+
+.strategy_2_contents {
+    width: 314px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+    padding-left: 5px;
+
+   
+}
+
+.strategyCompleteButton {
+    width: 634px;
+    height: 74px;
+    top: 783px;
+    left: 563px;
+    padding-top: 99px;
+    padding-left: 406px;    
+    position: fixed;
+        
+
+    background-color: #ffffff;
+}
+
+#strategyCompleteButton {
+/*     
+    margin-top: 1%;
+    margin-bottom: 30px;
+    margin-left: 22%; */
+    border: none;
+    background-color: #ffffff;
+    align-content: center;
+}
+
+
+/*grid 형식 */
+.strategy_2_grid {
+    position: absolute;
+    margin-left: 18px;
+    /* margin-top: 12%; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    grid-column-gap: 1px;
+    grid-auto-rows: auto auto;
+    
+}
+
+
+.setting_1 {
+    
+}
+
+.setting_2 {
+
+}
+
+.strategy_2_subtitles {
+    position: relative;
+    float: center;
+    border-top: 1px solid #9646a0;
+    background-color: #f9f9f9;
+    width: 314px;
+    height: 56px;
+    vertical-align: middle;
+    display: table-cell;
+    font-style: #333333;
+    font-size: 14px;
+    word-spacing: 10%;
+
+}
+
+.strategy_2_subtitle {
+    position: relative;
+    display: inline-block;
+}
+
+.strategy_2_sub_subtitle {
+    position: relative;
+    
+}
+
+.strategy_2_subcontents {
+    position: relative;
+    border-bottom: 1px solid #f9f9f9;
+    vertical-align: middle;
+    width: 314px;
+    height: 46px;
+    font-size: 20px;
+    float: center;
+    
+    word-spacing: 15%;
+    margin-top: 10px;
+    
+}
+
+
+.strategy_2_subcontent {
+    position: relative;
+    display: inline-block;
+    
+    
+}
+
+.strategy_2_sub_subcontent {
+    position: relative;
+    
+}

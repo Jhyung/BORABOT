@@ -1,0 +1,23 @@
+.NowTrading-elementList{
+    overflow: scroll;
+    margin-left: 15px;
+}
+
+.NowTrading-element{
+    width: 180px;
+    height: 130px;
+    background-color: #c0cbd4;
+    color: black;
+    margin-bottom: 3px;
+    font-size: 12px;
+    overflow: hidden;
+    border-radius: 3%
+}
+
+::-webkit-scrollbar{
+    color: transparent;
+}
+
+.NowTrading-text{
+    height: 10px;
+}

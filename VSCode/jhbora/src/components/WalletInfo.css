@@ -1,0 +1,12 @@
+.WalletInfo_title {
+  background-color: #343a40;
+  color: white;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.WalletInfo-exchangeSelectbox{
+  margin-top: 20px;
+  font-size: 15px;
+  background-color: azure;
+}

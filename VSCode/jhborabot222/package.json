@@ -1,0 +1,22 @@
+{
+  "name": "front",
+  "version": "1.7.0",
+  "private": true,
+  "dependencies": {
+    "global": "^4.3.2",
+    "kaazing-enterprise-client": "^4.1.0",
+    "node-bittrex-api": "^0.8.3",
+    "npm": "^6.1.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "yarn": "^1.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

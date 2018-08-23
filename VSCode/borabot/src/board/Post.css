@@ -1,0 +1,192 @@
+.post {
+    position: relative;
+    width: 820px;
+    height: 530px;
+}
+
+#title {
+    float: right;
+    width: 870px;
+    height: 48px;
+}
+
+#content {
+    float: right;
+    width: 870px;
+    height: 326px;
+    resize: none;
+
+}
+
+#saveButton {
+    position: relative;
+    float: right;
+    left: 225px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.post_table {
+    border-top: 1px #9646a0;
+    /* overflow: scroll; */
+    width: 1040px;
+    height: 780px;
+}
+
+.post_table_title {
+    border-top: 1px solid #9646a0;
+    background-color: #f9f9f9;
+    font-style: bold #333333;
+    font-size: 12px;
+    margin-top: 30px;
+    /* height: 500px; */
+
+    position: relative;
+
+    text-align: left;
+
+    vertical-align: middle;
+}
+
+.post_table_title_1 {
+    padding-left: 30px;
+}
+
+.post_table_title_1, .post_table_title_2 {
+    border: 1px solid #e6e6e6;
+    border-left: none;
+}
+
+.comment_top_table {
+    width: 1000px;
+    margin-top: 30px;
+    border-top: 1px solid #9646a0;
+}
+
+.comment_top_title_1 {
+    position: relative;
+    float: left;
+    padding-left: 10px;
+}
+
+.comment_top_title_2 {
+    position: relative;
+    float: right;
+    padding-right: 20px;
+}
+
+.post_btn {
+    position: relative;
+    
+    top: 30px;
+    left: -120px;
+}
+
+#content2 {
+    width: 1080px;
+}
+.post_buttons {
+    text-align: right;
+    position: relative;
+    /* left: 345px; */
+    margin-top: 36px;
+}
+.comment_bottom_1 {
+    margin-top: 50px;
+    position: relative;
+    right: 73px;
+    
+}
+
+.comment_bottom_2 {
+    margin: 0px;
+    margin-top: 25px;
+    height: 63px;
+    width: 910px;
+    z-index: -1;
+}
+
+#comment {
+    position: relative;
+    top: -30px;
+    left: 66px;
+    height: 10px; 
+    
+}
+
+#comment_new {
+    position: relative;
+    left: 75px;
+}
+
+#comment_new, #comment_delete {
+    border: none;
+    background-color: #ffffff;
+}
+
+#post_edit, #post_delete {
+    border: none;
+    background-color: #ffffff;
+}
+
+#listButton2 {
+    /* position: relative; */
+    left: 350px;
+    border: none;
+    background-color: #ffffff;
+}
+
+#listButton1 {
+    position: relative;
+    float: right;
+    left: 450px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.comment_commentTotal {
+    margin-top: 10px;
+    position: relative;
+    height: 120px;
+    width: 1050px;
+    
+}
+
+.comment_title {
+    position: relative;
+    width: 200px;
+    z-index: 2;
+    
+}
+
+.comment_delete {
+    position: relative;
+    margin: 0px;
+    width: 100px;
+    height: 50px;
+    left: 924px;
+    bottom: 23px;
+    
+
+    
+}
+
+#comment_delete {
+    position: relative;
+    z-index: 333334;
+
+    
+    
+    
+}
+
+.comment_comment {
+    position: relative;
+    text-align: left;
+    width: 890px;
+    padding: 0px;
+    left: 20px;
+    bottom: 40px;
+
+    
+}

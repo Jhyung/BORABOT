@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-horizontal{
+  float: left;
+  position: relative;
+  left: 100px;
+}
+
+.App-Sales1{
+  float:left;
+  height: 300px;
+  position: absolute;
+  left: 25px;
+  top: 320px;
+}
+
+.App-ChartSelect{
+  float: left;
+  width: 900px;
+  height: 1500px;
+  margin: 12px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.App-NowTrading {
+  width: 240px;
+  height: 180px;
+  margin: 12px;
+  margin-bottom: 0px;
+  
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.App-Sales{
+  width: 240px;
+  height: 450px;
+  margin: 12px;
+  padding: 10px;
+  border: 1px solid black;
+  float: left;
+}
+
+
+.App-Accounts{
+  position: absolute;
+  left: 1000px;
+  top: 500px;
+  width: 200px;
+  height: 120px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 25px;
+  padding: 10px;
+  color: white;
+  align-content: center;
+  text-align-last: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+  align-content: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.App-test{
+  height: 70px;
+}
+
+
+
+
+#Select-chart {
+  width: 660px;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #bcbcbc;
+}
+
+#Wallet-accounts {
+  width: 120px;
+  height: 180px;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #bcbcbc;
+}
+
+#Board-algorithm {
+  width: 120px;
+  height: 540px;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #bcbcbc;
+}
+
+
+
+
+
+.wrapper {
+  display: grid; 
+  grid-gap: 16px;
+  grid-auto-columns: 205px;
+  grid-auto-rows: 110px;
+}
+.one {
+  margin-top: 10px;
+  border: 1px solid black;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 0;
+  grid-column-end: 1;
+}
+.two { 
+  border: 1px solid black;
+  grid-row-start: 3;
+  grid-row-end: 7;
+  grid-column-start: 0;
+  grid-column-end: 1;
+}
+.three {
+  margin-top: 10px;
+  border: 1px solid black;
+  grid-row-start: span 6;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+.four {
+  margin-top: 10px;
+  border: 1px solid black;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 6;
+  grid-column-end: 7;
+}
+.five {
+  border: 1px solid black;
+  grid-row-start: 3;
+  grid-row-end: 7;
+  grid-column-start: 6;
+  grid-column-end: 7;
+}
+.six {
+  border: 1px solid black;
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+

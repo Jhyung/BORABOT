@@ -1,0 +1,192 @@
+import React, { Component } from 'react';
+import './ChartSelect.css';
+
+const coinList = [
+  {
+    name : "BTC",
+    img : "btc_img.jpg",
+    link_whitepaper : "https://whitepaperbtc.com"
+  },
+  {
+    name : "ETH",
+    img : "eth_img.jpg",
+    link_whitepaper : "https://whitepaperbtc.com"
+  },
+  {
+    name : "BTG",
+    img : "btg_img.jpg",
+    link_whitepaper : "https://whitepaperbtc.com"
+  },
+  {
+    name : "XRP",
+    img : "xrp_img.jpg",
+    link_whitepaper : "https://whitepaperbtc.com"
+  },
+  {
+    name : "EOS",
+    img : "eos_img.jpg",
+    link_whitepaper : "https://whitepaperbtc.com"
+  },
+  {
+    name : "LTC",
+    img : "ltc_img.jpg",
+    link_whitepaper : "https://whitepaperbtc.com"
+  },
+  {
+    name : "DOG",
+    img : "dog_img.jpg",
+    link_whitepaper : "https://whitepaperbtc.com"
+  },
+  {
+    name : "ETC",
+    img : "etc_img.jpg",
+    link_whitepaper : "https://whitepaperbtc.com"
+  },
+  {
+    name : "QTUM",
+    img : "qtum_img.jpg",
+    link_whitepaper : "https://whitepaperbtc.com"
+  }
+]
+
+const exchangeList=[
+  {
+    name : "BITTREX",
+    //link?
+  },
+  {
+    name : "BITHUMB"
+  },
+  {
+    name : "BINANCE"
+  },
+  {
+    name : "KORBIT"
+  },
+  {
+    name : "COINONE"
+  }
+]
+
+const unitList=[
+  "5m", "10m", "15m", "30m", "1h", "6h", "1d", "1w", "1m", "1y"
+]
+
+class ChartSelect extends Component{
+
+  state = {
+    coin : coinList[0],
+    exchange : exchangeList[0],
+    unit : '5m',
+  }
+
+  componentDidMount(){
+   this._getBittrex();
+  }
+
+  _call_API = () => {
+    console.log("api called!");
+
+    return fetch('https://bittrex.com/api/v1.1/public/getmarketsummary?market=btc-LTC')
+    .then(response => response.json())
+    .then(json => json.result[0].Low)
+    .then(err => console.log(err))
+
+  }
+
+  _getBittrex = async() =>{
+    const data = await this._call_API()
+    console.log(data);
+  }
+
+  handleCoinSelect= () => {
+
+    let e = document.getElementById("coinSelectbox");
+    let selected_coin = coinList[ e.options[e.selectedIndex].index ];
+
+    this.setState({
+      coin : selected_coin,
+      exchange : this.state.exchange,
+      unit : this.state.unit,
+      content : this.state.content
+    })
+  }
+
+  handleExchangeSelect = () => {
+
+    let e = document.getElementById("exchangeSelectbox");
+    let selected_exchange = exchangeList[ e.options[e.selectedIndex].index ];
+
+    this.setState({
+      coin : this.state.coin,
+      exchange : selected_exchange,
+      unit : this.state.unit,
+      content : this.state.content
+    })
+  }
+
+  handleUnitSelect = () => {
+    let e = document.getElementById("unitSelectbox");
+    let selected_unit = unitList[ e.options[e.selectedIndex].index ];
+
+    this.setState({
+      coin : this.state.coin,
+      exchange : this.state.exchange,
+      unit : selected_unit,
+      content : this.state.content
+    })
+  }
+
+  handleSwtichRequest = () => {
+
+    const newState = this.props;
+
+  }
+
+  render() {
+
+        return(
+        <div>
+          <select id="coinSelectbox" size = '1' onChange = {this.handleCoinSelect}> 
+          <option id={coinList[0].name}> {coinList[0].name} </option>
+          <option id={coinList[1].name}> {coinList[1].name} </option>
+          <option id={coinList[2].name}> {coinList[2].name} </option>
+          <option id={coinList[3].name}> {coinList[3].name} </option>
+          <option id={coinList[4].name}> {coinList[4].name} </option>
+          <option id={coinList[5].name}> {coinList[5].name} </option>
+          <option id={coinList[6].name}> {coinList[6].name} </option>
+          <option id={coinList[7].name}> {coinList[7].name} </option>
+          </select>
+
+
+          <select id="exchangeSelectbox" size = '1' onChange = {this.handleExchangeSelect}> 
+          <option> {exchangeList[0].name} </option>
+          <option> {exchangeList[1].name} </option>
+          <option> {exchangeList[2].name} </option>
+          <option> {exchangeList[3].name} </option>
+          <option> {exchangeList[4].name} </option>
+          </select>
+
+          <select id = "unitSelectbox" size = '1' onChange = {this.handleUnitSelect}>
+          <option> {unitList[0]} </option>
+          <option> {unitList[1]} </option>
+          <option> {unitList[2]} </option>
+          <option> {unitList[3]} </option>
+          <option> {unitList[4]} </option>
+          <option> {unitList[5]} </option>
+          <option> {unitList[6]} </option>
+          <option> {unitList[7]} </option>
+          <option> {unitList[8]} </option>
+          <option> {unitList[9]} </option>
+          </select>
+
+          <p>
+            coin : {this.state.coin.name} --------- exchange : {this.state.exchange.name} --------- period unit : {this.state.unit}
+          </p>
+
+        </div>
+        );
+    }
+}
+
+export default ChartSelect;

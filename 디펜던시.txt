@@ -1,0 +1,416 @@
+axios
+immutable
+open-color
+react-redux
+react-router-dom
+redux
+redux-actions
+redux-pender
+styled-components
+validator
+react-hot-loader
+
+
+
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Users\Chanho> cd ..\..\Devel\
+PS C:\Devel> cd .\VSCode\BORABOT\
+PS C:\Devel\VSCode\BORABOT> yarn
+yarn install v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+Done in 50.86s.
+PS C:\Devel\VSCode\BORABOT> yarn start
+yarn run v1.7.0
+$ react-scripts start
+Starting the development server...
+Failed to compile.
+
+./src/components/Base/Header/LoginButton.js
+Module not found: Can't resolve '../../../lib/styleUtils' in 'C:\Devel\VSCode\BORABOT\src\components\Base\Header'
+Compiling...
+Failed to compile.
+
+./src/components/Base/Header/Header.js
+Module not found: Can't resolve '../../../lib/styleUtils' in 'C:\Devel\VSCode\BORABOT\src\components\Base\Header'
+Compiling...
+Failed to compile.
+
+./src/components/Base/Header/Header.js
+  Line 37:  'media' is not defined  no-undef
+  Line 41:  'media' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/Base/Header/LoginButton.js
+Module not found: Can't resolve '../../../lib/styleUtils' in 'C:\Devel\VSCode\BORABOT\src\components\Base\Header'
+일괄 작업을 끝내시겠습니까 (Y/N)? y
+PS C:\Devel\VSCode\BORABOT> yarn start
+yarn run v1.7.0
+$ react-scripts start
+Starting the development server...
+Failed to compile.
+
+./src/containers/Auth/Register.js
+Module not found: Can't resolve 'axios' in 'C:\Devel\VSCode\BORABOT\src\containers\Auth'
+Compiling...
+Failed to compile.
+
+./src/containers/Auth/Register.js
+Module not found: Can't resolve 'axios' in 'C:\Devel\VSCode\BORABOT\src\containers\Auth'
+일괄 작업을 끝내시겠습니까 (Y/N)? y
+PS C:\Devel\VSCode\BORABOT> yarn add axios
+yarn add v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 2 new dependencies.
+info Direct dependencies
+└─ axios@0.18.0
+info All dependencies
+├─ axios@0.18.0
+└─ follow-redirects@1.5.1
+Done in 6.63s.
+PS C:\Devel\VSCode\BORABOT> yarn add axios
+yarn add v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved 1 new dependency.
+info Direct dependencies
+└─ axios@0.18.0
+info All dependencies
+└─ axios@0.18.0
+Done in 6.48s.
+PS C:\Devel\VSCode\BORABOT> yarn start
+yarn run v1.7.0
+$ react-scripts start
+Starting the development server...
+Failed to compile.
+
+./src/redux/modules/auth.js
+Module not found: Can't resolve 'immutable' in 'C:\Devel\VSCode\BORABOT\src\redux\modules'
+Compiling...
+일괄 작업을 끝내시겠습니까 (Y/N)? y
+PS C:\Devel\VSCode\BORABOT> yarn add immutable
+yarn add v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+
+success Saved lockfile.
+success Saved 1 new dependency.
+info Direct dependencies
+└─ immutable@3.8.2
+info All dependencies
+└─ immutable@3.8.2
+Done in 6.09s.
+PS C:\Devel\VSCode\BORABOT> yarn start
+yarn run v1.7.0
+$ react-scripts start
+Starting the development server...
+Failed to compile.
+
+./src/components/Auth/AuthButton.js
+Module not found: Can't resolve 'open-color' in 'C:\Devel\VSCode\BORABOT\src\components\Auth'
+Compiling...
+Failed to compile.
+
+./src/components/Auth/LeftAlignedLink.js
+Module not found: Can't resolve 'open-color' in 'C:\Devel\VSCode\BORABOT\src\components\Auth'
+일괄 작업을 끝내시겠습니까 (Y/N)? y
+PS C:\Devel\VSCode\BORABOT> yarn add open-color
+yarn add v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 1 new dependency.
+info Direct dependencies
+└─ open-color@1.6.3
+info All dependencies
+└─ open-color@1.6.3
+Done in 7.31s.
+PS C:\Devel\VSCode\BORABOT> yarn start
+yarn run v1.7.0
+$ react-scripts start
+Starting the development server...
+Failed to compile.
+
+./src/Root.js
+Module not found: Can't resolve 'react-redux' in 'C:\Devel\VSCode\BORABOT\src'
+Compiling...
+Failed to compile.
+
+./src/Root.js
+Module not found: Can't resolve 'react-redux' in 'C:\Devel\VSCode\BORABOT\src'
+일괄 작업을 끝내시겠습니까 (Y/N)? y
+PS C:\Devel\VSCode\BORABOT> yarn add react-redux
+yarn add v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning " > react-redux@5.0.7" has unmet peer dependency "redux@^2.0.0 || ^3.0.0 || ^4.0.0-0".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 3 new dependencies.
+info Direct dependencies
+└─ react-redux@5.0.7
+info All dependencies
+├─ hoist-non-react-statics@2.5.5
+├─ lodash-es@4.17.10
+└─ react-redux@5.0.7
+Done in 7.87s.
+PS C:\Devel\VSCode\BORABOT> yarn start
+yarn run v1.7.0
+$ react-scripts start
+Starting the development server...
+Failed to compile.
+
+./src/Root.js
+Module not found: Can't resolve 'react-router-dom' in 'C:\Devel\VSCode\BORABOT\src'
+Compiling...
+Failed to compile.
+
+./src/Root.js
+Module not found: Can't resolve 'react-router-dom' in 'C:\Devel\VSCode\BORABOT\src'
+일괄 작업을 끝내시겠습니까 (Y/N)? y
+PS C:\Devel\VSCode\BORABOT> yarn add react-router-dom
+yarn add v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning " > react-redux@5.0.7" has unmet peer dependency "redux@^2.0.0 || ^3.0.0 || ^4.0.0-0".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 4 new dependencies.
+info Direct dependencies
+└─ react-router-dom@4.3.1
+info All dependencies
+├─ react-router-dom@4.3.1
+├─ react-router@4.3.1
+├─ resolve-pathname@2.2.0
+└─ value-equal@0.4.0
+Done in 7.18s.
+PS C:\Devel\VSCode\BORABOT> yarn start
+yarn run v1.7.0
+$ react-scripts start
+Starting the development server...
+Failed to compile.
+
+./node_modules/react-redux/es/connect/mapDispatchToProps.js
+Module not found: Can't resolve 'redux' in 'C:\Devel\VSCode\BORABOT\node_modules\react-redux\es\connect'
+Compiling...
+Failed to compile.
+
+./node_modules/react-redux/es/connect/mapDispatchToProps.js
+Module not found: Can't resolve 'redux' in 'C:\Devel\VSCode\BORABOT\node_modules\react-redux\es\connect'
+일괄 작업을 끝내시겠습니까 (Y/N)? y
+PS C:\Devel\VSCode\BORABOT> yarn add redux
+yarn add v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 2 new dependencies.
+info Direct dependencies
+└─ redux@4.0.0
+info All dependencies
+├─ redux@4.0.0
+└─ symbol-observable@1.2.0
+Done in 6.01s.
+PS C:\Devel\VSCode\BORABOT> yarn add redux
+yarn add v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved 1 new dependency.
+info Direct dependencies
+└─ redux@4.0.0
+info All dependencies
+└─ redux@4.0.0
+Done in 6.12s.
+PS C:\Devel\VSCode\BORABOT> yarn start
+yarn run v1.7.0
+$ react-scripts start
+Starting the development server...
+Failed to compile.
+
+./src/redux/modules/base.js
+Module not found: Can't resolve 'redux-actions' in 'C:\Devel\VSCode\BORABOT\src\redux\modules'
+Compiling...
+Failed to compile.
+
+./src/redux/modules/base.js
+Module not found: Can't resolve 'redux-actions' in 'C:\Devel\VSCode\BORABOT\src\redux\modules'
+일괄 작업을 끝내시겠습니까 (Y/N)? y
+PS C:\Devel\VSCode\BORABOT> yarn add redux-actions
+yarn add v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 2 new dependencies.
+info Direct dependencies
+└─ redux-actions@2.4.0
+info All dependencies
+├─ reduce-reducers@0.1.5
+└─ redux-actions@2.4.0
+Done in 6.94s.
+PS C:\Devel\VSCode\BORABOT> yarn start
+yarn run v1.7.0
+$ react-scripts start
+Starting the development server...
+Failed to compile.
+
+./src/redux/modules/auth.js
+Module not found: Can't resolve 'redux-pender' in 'C:\Devel\VSCode\BORABOT\src\redux\modules'
+Compiling...
+Failed to compile.
+
+./src/redux/modules/auth.js
+Module not found: Can't resolve 'redux-pender' in 'C:\Devel\VSCode\BORABOT\src\redux\modules'
+일괄 작업을 끝내시겠습니까 (Y/N)? y
+PS C:\Devel\VSCode\BORABOT> yarn add redux-pender
+yarn add v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 3 new dependencies.
+info Direct dependencies
+└─ redux-pender@1.2.1
+info All dependencies
+├─ eventemitter3@2.0.3
+├─ query-string@5.1.1
+└─ redux-pender@1.2.1
+Done in 6.96s.
+
+
+Failed to compile.
+
+./src/components/Auth/RightAlignedLink.js
+Module not found: Can't resolve 'styled-components' in 'C:\Devel\VSCode\BORABOT\src\components\Auth'
+Compiling...
+Failed to compile.
+
+./src/components/Auth/RightAlignedLink.js
+Module not found: Can't resolve 'styled-components' in 'C:\Devel\VSCode\BORABOT\src\components\Auth'
+일괄 작업을 끝내시겠습니까 (Y/N)? y
+PS C:\Devel\VSCode\BORABOT> yarn add styled-components
+yarn add v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 7 new dependencies.
+info Direct dependencies
+└─ styled-components@3.3.3
+info All dependencies
+├─ buffer@5.1.0
+├─ css-color-keywords@1.0.0
+├─ css-to-react-native@2.2.1
+├─ react-is@16.4.1
+├─ styled-components@3.3.3
+├─ stylis-rule-sheet@0.0.10
+└─ stylis@3.5.1
+Done in 9.96s.
+PS C:\Devel\VSCode\BORABOT> yarn start
+yarn run v1.7.0
+$ react-scripts start
+Starting the development server...
+Failed to compile.
+
+./src/containers/Auth/Register.js
+Module not found: Can't resolve 'validator' in 'C:\Devel\VSCode\BORABOT\src\containers\Auth'
+Compiling...
+Failed to compile.
+
+./src/containers/Auth/Register.js
+Module not found: Can't resolve 'validator' in 'C:\Devel\VSCode\BORABOT\src\containers\Auth'
+일괄 작업을 끝내시겠습니까 (Y/N)? y
+PS C:\Devel\VSCode\BORABOT> yarn add validator
+yarn add v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 1 new dependency.
+info Direct dependencies
+└─ validator@10.4.0
+info All dependencies
+└─ validator@10.4.0
+Done in 6.75s.
+
+Failed to compile.
+
+./src/index.js
+Module not found: Can't resolve 'react-hot-loader' in 'C:\Devel\VSCode\BORABOT\src'
+Compiling...
+Failed to compile.
+
+./src/index.js
+Module not found: Can't resolve 'react-hot-loader' in 'C:\Devel\VSCode\BORABOT\src'
+일괄 작업을 끝내시겠습니까 (Y/N)? y
+PS C:\Devel\VSCode\BORABOT> yarn add react-hot-loader
+yarn add v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 3 new dependencies.
+info Direct dependencies
+└─ react-hot-loader@4.3.3
+info All dependencies
+├─ react-hot-loader@4.3.3
+├─ react-lifecycles-compat@3.0.4
+└─ shallowequal@1.1.0
+Done in 7.18s.

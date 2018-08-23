@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.alarm-tableButton {
+    position: absolute;
+    float: right;
+    padding: 0px;
+    top: 40%;
+    left: 95%;
+}
+
+.alarm-table {
+    width: 99.8%;
+    margin-top: 20px;
+}
+
+.alarm-title {
+    background-color: #9646a0;
+    border: 1px solid #9646a0;
+    width: 99.8%;
+    color: white;
+
+    position: relative;
+    
+    margin-bottom: 10px;
+
+    font-family: 'nanum gothic';
+    
+}
+
+.alarm-tableTitles {
+    margin-bottom: 30px;
+}
+
+.alarm-tableContents {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+
+.alarm-tableTitle1 {
+    position: relative;
+    margin-bottom: 20px;
+}
+.alarm-tableContent1 {
+    position: relative;
+    width: 60px;
+    height: 48px;
+    left: 5.5%;
+}
+
+
+.alarm-tableTitle2 {
+    position: relative;
+    margin-bottom: 20px;
+    right: 5%;   
+}
+.alarm-tableContent2 {
+    position: relative;
+    width: 60px;
+    height: 48px;
+}
+
+
+.alarm-tableTitle3 {
+    position: relative;
+    margin-bottom: 20px;
+    right: 7%;
+}
+.alarm-tableContent3 {
+    position: relative;
+    width: 60px;
+    height: 48px;
+    right: 0.9%;
+}
+
+
+.alarm-tableTitle4 {
+    position: relative;
+    margin-bottom: 20px;
+    right: 11%;    
+}
+.alarm-tableContent4 {
+    position: relative;
+    width: 60px;
+    height: 48px;
+    right: 4.4%;
+}
+
+
+.alarm-tableTitle5 {
+    position: relative;
+    margin-bottom: 20px;
+    right: 15%;
+}
+.alarm-tableContent5 {
+    position: relative;
+    width: 60px;
+    height: 48px;
+    right: 9.3%;
+}
+
+
+.alarm-tableTitle6 {
+    position: relative;
+    margin-bottom: 20px;
+    right: 8%;
+}
+.alarm-tableContent6 {
+    position: relative;
+    width: 60px;
+    height: 48px;
+    right: 7.5%;
+}
+
+
+ 

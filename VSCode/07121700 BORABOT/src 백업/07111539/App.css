@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+  background-color: #0f1316;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  /* min-height: 100%;
+  max-width: 1023px;
+
+  width: 100%;
+  height: auto;
+
+  position: relative;
+  top: 0;
+  left: 0; */
+}
+@media (max-width: 2047px) {
+  .App {
+    width: auto;
+  }
+}
+
+.body {
+  background-color: #0f1316;
+
+}
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 0px;
+  grid-auto-columns: auto;
+  grid-auto-rows: auto;
+}
+.one {
+  width: 220px;
+  border: 10px #343a40;
+  background-color: #343a40;
+  align-content: center;
+  padding-top: 15px;
+  padding-left: 4px;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  grid-column-start: 0;
+  grid-column-end: 1;
+  overflow: scroll;
+}
+.three {
+  border: 10px solid #0f1316;
+  grid-row-start: span 6;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  background-color: #0f1316;
+}
+.four {
+  min-width: 270px;
+  border: 10px solid #343a40;
+  border-bottom: #c0cbd4;
+  background-color: #c0cbd4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 7;
+  grid-column-end: 8;
+}
+.four_child {
+  min-width: 270px;
+  z-index: 5;
+  /* margin-bottom: 50px; */
+  border: 10px solid #343a40;
+  border-top: #c0cbd4;
+  background-color: #c0cbd4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 7;
+  grid-column-end: 8;
+}
+.five {
+  min-width: 270px;
+  border: 10px solid #343a40;
+  background-color: #343a40;
+  grid-row-start: 3;
+  grid-row-end: 7;
+  grid-column-start: 7;
+  grid-column-end: 8;
+}
+
+.App-scroll{
+  overflow: scroll;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
